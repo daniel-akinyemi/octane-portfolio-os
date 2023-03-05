@@ -9,7 +9,7 @@ type ProjectProps = {
 const ProjectCard = (props: ProjectProps) => {
   return (
     <div>
-        <div className="bg-gray-500 h-80 w-72 rounded-md cursor-pointer px-4 mx-6">
+        <div className="bg-gray-200 h-80 w-72 rounded-md cursor-pointer px-4 mx-6 mb-12">
               <p className="font-semibold text-lg pt-[60%]">{props.projectName}</p>
               <p className="text-md">{props.projectSummary}</p>
               <div className="flex pt-2">

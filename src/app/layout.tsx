@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-[#080808] ${plexMono.className}`}>
+      <body className={`bg-[#080808] ${plexMono.className} scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-slate-700`}>
       <Navbar/>
         {children}</body>
     </html>
