@@ -2,8 +2,8 @@ import { ArrowLongRightIcon} from '@heroicons/react/24/outline'
 
 const Herobanner = () => {
   return (
-    <div className=''>
-        <div className="text-[#9C9C9C] top-10 max-w-xl md:pt-32">
+    <div className='relative'>
+        <div className="text-[#9C9C9C]  max-w-xl md:pt-32  py-40 px-4 ">
           <h1 className="font-bold text-4xl text-white">Daniel Akinyemi</h1>
           {/* <p className='mt-4'>Javascript & Typescript developer with 5 years of experience building webapps</p> */}
           <p className='my-8'>

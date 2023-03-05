@@ -9,4 +9,7 @@
     .hovercode{
       @apply active:text-white hover:drop-shadow-2xl shadow-blue-600 transition-all delay-100 hover:text-white/90 hover:outline outline-offset-4;
     }
+    .mobilemenu{
+      @apply flex flex-col md:hidden space-y-8 w-full mx-auto text-white justify-center text-center items-center z-50 h-screen ease-in duration-300;
+    }
   }
