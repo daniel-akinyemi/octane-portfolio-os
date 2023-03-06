@@ -19,21 +19,21 @@ const page = () => {
       className="max-w-md text-[#d2d2d2] pt-32"
       >
         <div >
-          <span className="font-bold">Hello!</span> My name is Daniel and I love
+          <span className="font-bold text-gray-100">Hello!</span> My name is Daniel and I love
           building things that live on the internet. <br />
           My experience as a programmer allows me to come up with{" "}
-          <Link href="/recentwork">
+          <Link href="/casestudies">
             <span className="underline text-[#d6d6d6] hover:text-gray-100">
               intelligent solutions
             </span>
           </Link>{" "}
           to technical challenges, while at the same time designing sleek and
-          visually appealing websites. Aside from having <span className="hover:text-gray-100">extensive knowledge</span> of
+          visually appealing websites. Aside from having <span className="hover:text-gray-100 ">extensive knowledge</span> of
           recognized technical standards, I am conversant with modern building
           practices.
           <br />
           <br /> I have extensive knowledge of CMS such as Shopify, WordPress,
-          Wix, and Webflow and modern web technologies including: <span className="hover:text-gray-100">Typescript</span>,
+          Wix, and Webflow and modern web technologies including: <span className="hover:text-gray-50">Typescript</span>,
           <span className="hover:text-gray-100">React Js</span>, <span className="hover:text-gray-100">Next Js</span>, <span className="hover:text-gray-100">Javascript (ES6+)</span> <span className="hover:text-gray-100">Sanity</span> and <span className="hover:text-gray-100">Tailwind CSS</span>.
         </div>
         </motion.div>
