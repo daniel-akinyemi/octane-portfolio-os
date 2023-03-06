@@ -18,7 +18,7 @@ const page = () => {
       }}
       className="max-w-md text-[#d2d2d2] pt-32"
       >
-        <div >
+        <div className="px-6 sm:px-0">
           <span className="font-bold text-gray-100">Hello!</span> My name is Daniel and I love
           building things that live on the internet. <br />
           My experience as a programmer allows me to come up with{" "}
