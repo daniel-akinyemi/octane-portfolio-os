@@ -7,8 +7,8 @@ import {motion} from 'framer-motion'
 const page = () => {
   return (
     
-    <div className="wrapper max-w-5xl mx-auto">
-      <div className="flex">
+    <div className="max-w-5xl mx-auto">
+      <div className=" flex flex-col md:flex-row mx-auto items-center md:items-start justify-center">
       <motion.div
       initial={{opacity:0}}
       animate={{opacity:1}}
@@ -50,7 +50,7 @@ const page = () => {
           <Image
             src={Photo}
             alt="A photo of a developer"
-            className="h-64 w-64 rounded-sm border border-gray-600 p-1"
+            className="h-64 w-64 rounded-sm border border-gray-600 p-1 mb-10"
           />
         </div>
         </motion.div>

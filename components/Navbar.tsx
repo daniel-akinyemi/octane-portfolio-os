@@ -71,6 +71,7 @@ const Navbar = () => {
         onClick={handleNav}
         >
           Home
+          
         </Link>
         <Link href="/about" className={`hovercode`}
         onClick={handleNav}
