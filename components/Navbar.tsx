@@ -66,7 +66,7 @@ const Navbar = () => {
       </div>
 
         {/* Mobile Menu */}
-      <div className={nav ? 'absolute mobilemenu bg-black h-[80vh]' : ' absolute left-[-100%] ease-out duration-200'}>
+      <div className={nav ? 'absolute mobilemenu bg-black h-[100vh]' : ' absolute left-[-100%] ease-out duration-200'}>
         <Link href="/" className="hovercode"
         onClick={handleNav}
         >
