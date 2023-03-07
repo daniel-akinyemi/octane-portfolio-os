@@ -1,4 +1,3 @@
-import octaneHero from '../public/octanehero.png'
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 type ProjectProps = {
   projectName: string;
@@ -16,7 +15,7 @@ const ProjectCard = (props: ProjectProps) => {
     <div  >
       <div 
       style={{backgroundImage: `url(${props.backgroundImage})`, backgroundSize: 'cover',}}
-      className='bg-gray-600 h-80 max-w-[18rem] rounded-md  px-4 mx-auto mb-12 text-white group'
+      className='bg-gray-600 h-80 max-w-[18rem] rounded-md  mx-auto mb-12 text-white group'
       >
         <div className='bg-gray-600/70 h-80 w-72 rounded-md  px-4 mx-auto mb-12 text-white backdrop-brightness-[.2] '>
         <p className="font-extrabold text-lg pt-[60%]">{props.projectName}</p>
