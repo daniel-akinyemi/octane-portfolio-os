@@ -7,7 +7,7 @@
       @apply text-xs bg-gray-800 text-white py-0.5 px-2 rounded-xl mx-0.5;
     }
     .hovercode{
-      @apply active:text-white hover:drop-shadow-2xl shadow-blue-600 transition-all delay-100 hover:text-white/90 hover:outline outline-offset-4;
+      @apply active:text-white hover:drop-shadow-2xl shadow-blue-600 transition-all  hover:text-white/90 hover:outline outline-offset-4 focus:text-white focus:font-semibold;
     }
     .mobilemenu{
       @apply flex flex-col md:hidden space-y-8 w-full mx-auto text-white justify-start pt-40 text-center items-center z-50 h-screen ease-in duration-300;
