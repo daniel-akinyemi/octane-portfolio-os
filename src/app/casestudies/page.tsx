@@ -1,7 +1,7 @@
 import ProjectCard from "../../../components/ProjectCard"
 import octaneHero from '../../../public/octanehero.png'
 import chatgptclonehomepage from '../../../public/chatgptclonehomepage.png'
-import souqifyhomepage from '../../../public/souqify-homepage.png'
+import souqifyhomepage from '../../../public/souqifyhomepage.png'
 
 
 const page = () => {
