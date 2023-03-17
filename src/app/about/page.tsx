@@ -50,7 +50,7 @@ const page = () => {
           <Image
             src={Photo}
             alt="A photo of a developer"
-            className="h-64 w-64 rounded-sm border mb-10"
+            className="h-64 w-64 rounded-sm mb-10"
           />
         </div>
         </motion.div>
