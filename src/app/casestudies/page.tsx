@@ -55,7 +55,7 @@ const page = () => {
           techCard1="React"
           techCard2="Tailwind CSS"
           techCard3="Vercel"
-          projectLink="https://danielakinyemi.vercel/app/casestudies"
+          projectLink="https://vercel.com/daniel-akinyemi/defi-app/8684BGCemS4pfaeNp5AGbGFnM4dN"
           backgroundImage={`${defilandingpage.src}`}
         />
         <ProjectCard
@@ -64,7 +64,7 @@ const page = () => {
           techCard1="Next.JS"
           techCard2="Tailwind"
           techCard3="Vercel"
-          projectLink="Google-Clone-2.0---Next-JS-TailwindCSS"
+          projectLink="https://google-clone-version-2-git-main-daniel-akinyemi.vercel.app/"
           backgroundImage={`${googleclonehomepage.src}`}
         />
         <ProjectCard
@@ -73,7 +73,7 @@ const page = () => {
           techCard1="Liquid"
           techCard2="Javascript"
           techCard3="CSS/SCSS"
-          projectLink="https://danielakinyemi.vercel/app/casestudies"
+          projectLink="https://github.com/daniel-akinyemi/prisma-theme-shopify-beta"
           backgroundImage={`${octaneHero.src}`}
         />
         
