@@ -49,7 +49,7 @@ const Navbar = () => {
               className="mx-3 w-5 h-5 text-[#d4d4d4] bg-[#9c9c9c] rounded-sm hover:bg-white/90 transition-all delay-100"
             />
           </a>
-          <a href="https://drive.google.com/uc?id=18Aect6Ui2I24WIRIL-go0Kby56otMLPc&export=download">
+          <a href="https://drive.google.com/u/0/uc?id=1Sen1EyPnEKAnYmyV9fWIhQduer5yWPrW&export=download">
             <ArrowDownOnSquareStackIcon className="mx-3 w-5 h-5 text-[#9c9c9c] hovercode" />
           </a>
           {/* <img src={Gitlogo} className='mx-2 w-7 h-7 text-[#d4d4d4] rounded-sm'/>
