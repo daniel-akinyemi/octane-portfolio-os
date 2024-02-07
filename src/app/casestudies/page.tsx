@@ -34,7 +34,7 @@ const page = () => {
         />
         <ProjectCard
           projectName="Graft3r"
-          projectSummary="Streetwear Fashion"
+          projectSummary="Streetwear fashion ecommerce website"
           techCard1="Liquid"
           techCard2="Javascript"
           techCard3="CSS/SCSS"
@@ -73,7 +73,7 @@ const page = () => {
           githubLink="https://github.com/daniel-akinyemi/Google-Clone-2.0---Next-JS-TailwindCSS"
         />
         <ProjectCard
-          projectName="Prisma Shopify Theme (Beta)"
+          projectName="Prisma Shopify Theme"
           projectSummary="Custom Shopify theme for online marketplace"
           techCard1="Liquid"
           techCard2="Javascript"
