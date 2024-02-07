@@ -78,9 +78,9 @@ const page = () => {
           techCard1="Liquid"
           techCard2="Javascript"
           techCard3="CSS/SCSS"
-          projectLink="https://github.com/daniel-akinyemi/prisma-shopify-theme-1.0.1"
+          projectLink=""
           backgroundImage={`${octaneHero.src}`}
-          githubLink=""
+          githubLink="https://github.com/daniel-akinyemi/prisma-shopify-theme-1.0.1"
         />
         
       </div>

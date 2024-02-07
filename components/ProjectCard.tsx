@@ -31,7 +31,7 @@ const ProjectCard = (props: ProjectProps) => {
           {/* <span className="underline pr-4 ">View Live Site</span> */}
           <CodeBracketSquareIcon className="h-5 w-5 underline my-2  cursor-pointer"/>
         </a>
-        <a href={`${props.projectLink}`} target='_blank' className="flex cursor-pointer text-white items-center">
+        <a href={`${props.projectLink}`} target='_blank' className={props.projectLink === "" ? `hidden` : `flex cursor-pointer text-white items-center`}>
           {/* <span className="underline pr-4 ">View Live Site</span> */}
           <ArrowTopRightOnSquareIcon className="h-5 w-5 underline my-2  cursor-pointer"/>
         </a>
