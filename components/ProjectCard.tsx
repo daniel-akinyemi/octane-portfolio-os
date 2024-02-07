@@ -6,7 +6,8 @@ type ProjectProps = {
   techCard2: string;
   techCard3: string;
   projectLink:string;
-  backgroundImage:string
+  backgroundImage:string;
+  githubLink: string;
 };
 
 
@@ -26,7 +27,7 @@ const ProjectCard = (props: ProjectProps) => {
           <p className="tech-stack-card">{props.techCard3}</p>
         </div>
         <div className="flex gap-x-4 items-center">
-        <a href={`${props.projectLink}`} target='_blank' className="flex cursor-pointer text-white items-center">
+        <a href={`${props.githubLink}`} target='_blank' className={props.githubLink === "" ? `hidden` : `flex cursor-pointer text-white items-center`}>
           {/* <span className="underline pr-4 ">View Live Site</span> */}
           <CodeBracketSquareIcon className="h-5 w-5 underline my-2  cursor-pointer"/>
         </a>

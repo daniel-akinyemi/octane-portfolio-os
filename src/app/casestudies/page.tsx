@@ -30,6 +30,7 @@ const page = () => {
           techCard3="Javascript"
           projectLink="https://danielakinyemi-git-main-daniel-akinyemi.vercel.app/"
           backgroundImage={`${octaneHero.src}`}
+          githubLink="https://github.com/daniel-akinyemi/octane-portfolio-os"
         />
         <ProjectCard
           projectName="Graft3r"
@@ -39,6 +40,7 @@ const page = () => {
           techCard3="CSS/SCSS"
           projectLink="https://graft3r.co.uk"
           backgroundImage={`${graft3r.src}`}
+          githubLink=""
         />
         <ProjectCard
           projectName="Chat GPT Clone 1.1"
@@ -48,6 +50,7 @@ const page = () => {
           techCard3="Vercel"
           projectLink="https://chat-gpt-clone-1-1-git-main-daniel-akinyemi.vercel.app/"
           backgroundImage={`${chatgptclonehomepage.src}`}
+          githubLink="https://github.com/daniel-akinyemi/chat-gpt-clone-1.1"
         />
         <ProjectCard
           projectName="De-Fi Trading WebApp"
@@ -57,6 +60,7 @@ const page = () => {
           techCard3="Vercel"
           projectLink="https://defi-mnymfgytz-daniel-akinyemi.vercel.app/"
           backgroundImage={`${defilandingpage.src}`}
+          githubLink=""
         />
         <ProjectCard
           projectName="Google Clone 2.0"
@@ -66,6 +70,7 @@ const page = () => {
           techCard3="Vercel"
           projectLink="https://google-clone-version-2-git-main-daniel-akinyemi.vercel.app/"
           backgroundImage={`${googleclonehomepage.src}`}
+          githubLink="https://github.com/daniel-akinyemi/Google-Clone-2.0---Next-JS-TailwindCSS"
         />
         <ProjectCard
           projectName="Prisma Shopify Theme (Beta)"
@@ -75,6 +80,7 @@ const page = () => {
           techCard3="CSS/SCSS"
           projectLink="https://github.com/daniel-akinyemi/prisma-shopify-theme-1.0.1"
           backgroundImage={`${octaneHero.src}`}
+          githubLink=""
         />
         
       </div>
