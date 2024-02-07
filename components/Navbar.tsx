@@ -62,7 +62,7 @@ const Navbar = () => {
       </div>
 
       <div className="mobile-nav flex justify-between max-w-[90%] mx-auto md:hidden">
-      <Link href="/" className="hovercode">
+      <Link href="/" >
       <Image src={image.src} width={100} height={100} alt="logo" />
       </Link>
         {/* Mobile Menu Button */}
