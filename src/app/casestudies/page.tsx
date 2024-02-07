@@ -2,10 +2,9 @@
 import ProjectCard from "../../../components/ProjectCard";
 import octaneHero from "../../../public/octanehero.png";
 import chatgptclonehomepage from "../../../public/chatgptclonehomepage.png";
-import souqifyhomepage from "../../../public/souqifyhomepage.png";
 import googleclonehomepage from '../../../public/googleclonehomepage.png'
 import defilandingpage from '../../../public/defilandingpage.png'
-import graft3r from 'graft3er.png'
+import graft3r from '../../../public/graft3er.png'
 import {motion, AnimatePresence} from 'framer-motion'
 
 
