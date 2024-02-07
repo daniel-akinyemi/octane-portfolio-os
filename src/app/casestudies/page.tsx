@@ -28,7 +28,7 @@ const page = () => {
           techCard1="React"
           techCard2="Tailwind CSS"
           techCard3="Javascript"
-          projectLink="https://danielakinyemi.vercel/app/casestudies"
+          projectLink="https://danielakinyemi-git-main-daniel-akinyemi.vercel.app/"
           backgroundImage={`${octaneHero.src}`}
         />
         <ProjectCard
@@ -55,7 +55,7 @@ const page = () => {
           techCard1="React"
           techCard2="Tailwind CSS"
           techCard3="Vercel"
-          projectLink="https://vercel.com/daniel-akinyemi/defi-app/8684BGCemS4pfaeNp5AGbGFnM4dN"
+          projectLink="https://defi-mnymfgytz-daniel-akinyemi.vercel.app/"
           backgroundImage={`${defilandingpage.src}`}
         />
         <ProjectCard
