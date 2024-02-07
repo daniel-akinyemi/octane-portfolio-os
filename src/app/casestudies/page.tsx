@@ -5,6 +5,7 @@ import chatgptclonehomepage from "../../../public/chatgptclonehomepage.png";
 import souqifyhomepage from "../../../public/souqifyhomepage.png";
 import googleclonehomepage from '../../../public/googleclonehomepage.png'
 import defilandingpage from '../../../public/defilandingpage.png'
+import graft3r from 'graft3er.png'
 import {motion, AnimatePresence} from 'framer-motion'
 
 
@@ -32,13 +33,13 @@ const page = () => {
           backgroundImage={`${octaneHero.src}`}
         />
         <ProjectCard
-          projectName="Souqify"
-          projectSummary="Your plug for house finishing products"
+          projectName="Graft3r"
+          projectSummary="Streetwear Fashion"
           techCard1="Liquid"
           techCard2="Javascript"
           techCard3="CSS/SCSS"
-          projectLink="https://souqify.com"
-          backgroundImage={`${souqifyhomepage.src}`}
+          projectLink="https://graft3r.co.uk"
+          backgroundImage={`${graft3r.src}`}
         />
         <ProjectCard
           projectName="Chat GPT Clone 1.1"
