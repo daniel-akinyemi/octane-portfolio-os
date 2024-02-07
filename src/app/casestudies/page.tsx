@@ -68,8 +68,8 @@ const page = () => {
           backgroundImage={`${googleclonehomepage.src}`}
         />
         <ProjectCard
-          projectName="Prisma Shopify Theme"
-          projectSummary="I created a clone of the popular AI chatbot"
+          projectName="Prisma Shopify Theme (Beta)"
+          projectSummary="Custom Shopify theme for online marketplace"
           techCard1="Liquid"
           techCard2="Javascript"
           techCard3="CSS/SCSS"
