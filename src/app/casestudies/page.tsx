@@ -5,9 +5,9 @@ import chatgptclonehomepage from "../../../public/chatgptclonehomepage.png";
 import googleclonehomepage from "../../../public/googleclonehomepage.png";
 import defilandingpage from "../../../public/defilandingpage.png";
 import graft3r from "../../../public/graft3r.png";
-import shaklibrands from "../../../public/shaklibrands.png"
-import JsAesthetics from "../../../public/JsAesthetics.png"
-import NuStore from "../../../public/NuStore.png"
+import shaklibrands from "../../../public/shaklibrands.png";
+import JsAesthetics from "../../../public/JsAesthetics.png";
+import NuStore from "../../../public/NuStore.png";
 import { motion, AnimatePresence } from "framer-motion";
 
 const page = () => {
@@ -23,15 +23,16 @@ const page = () => {
         <div className="scrollbar-thin scrollbar-thumb-red-500 scrollbar-track-slate-700 mx-auto">
           <div className="max-w-5xl mx-auto py-20 grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3">
             <ProjectCard
-              projectName="Shaklibrands"
-              projectSummary="Modest fashion ecommerce website"
+              projectName="Graft3r"
+              projectSummary="Streetwear fashion ecommerce website"
               techCard1="Liquid"
               techCard2="Javascript"
               techCard3="CSS/SCSS"
-              projectLink="https://shaklibrands.com"
-              backgroundImage={`${shaklibrands.src}`}
+              projectLink="https://graft3r.co.uk"
+              backgroundImage={`${graft3r.src}`}
               githubLink=""
             />
+
             <ProjectCard
               projectName="JS Aesthetics"
               projectSummary="Luxury aesthetic treatments spa"
@@ -52,7 +53,16 @@ const page = () => {
               backgroundImage={`${NuStore.src}`}
               githubLink=""
             />
-
+            <ProjectCard
+              projectName="Shaklibrands"
+              projectSummary="Modest fashion ecommerce website"
+              techCard1="Liquid"
+              techCard2="Javascript"
+              techCard3="CSS/SCSS"
+              projectLink="https://shaklibrands.com"
+              backgroundImage={`${shaklibrands.src}`}
+              githubLink=""
+            />
             <ProjectCard
               projectName="Octane Portfolio OS"
               projectSummary="Modern developer portfolio website"
@@ -63,17 +73,7 @@ const page = () => {
               backgroundImage={`${octaneHero.src}`}
               githubLink="https://github.com/daniel-akinyemi/octane-portfolio-os"
             />
-            <ProjectCard
-              projectName="Graft3r"
-              projectSummary="Streetwear fashion ecommerce website"
-              techCard1="Liquid"
-              techCard2="Javascript"
-              techCard3="CSS/SCSS"
-              projectLink="https://graft3r.co.uk"
-              backgroundImage={`${graft3r.src}`}
-              githubLink=""
-            />
-            
+
             <ProjectCard
               projectName="Chat GPT Clone 1.1"
               projectSummary="I created a clone of the popular AI chatbot"
@@ -114,7 +114,6 @@ const page = () => {
               backgroundImage={`${googleclonehomepage.src}`}
               githubLink="https://github.com/daniel-akinyemi/Google-Clone-2.0---Next-JS-TailwindCSS"
             />
-            
           </div>
         </div>
       </motion.div>
