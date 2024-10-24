@@ -19,41 +19,38 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative">
-      <div className="hidden md:flex text-[#9C9C9C] text-sm md:flex-row flex-col justify-around mx-20 py-6 px-10 bg-[#1B1B1B] rounded-md lg:px- -z-10">
+    <div className="relative my-4">
+      <div className="hidden md:flex text-[#9C9C9C] text-md font-semibold md:flex-row flex-col justify-between max-w-6xl mx-auto py-6 px-10 border-b-2 border-[#9C9C9C] rounded-lg lg:px- -z-10">
+        <div className="space-x-6 flex">
         <Link href="/" className="hovercode">
           Home
         </Link>
         <Link href="/about" className={`hovercode`}>
           About
         </Link>
-        <Link href="/casestudies" className="hovercode">
-          Case Studies
+        <Link href="/projects" className="hovercode">
+          Projects
         </Link>
-
-        <Link href="/blog" className="hovercode">
-          Blog
-        </Link>
-        <Link href="/getintouch" className="hovercode">
-          Get In Touch
-        </Link>
-        <div className="flex">
+        </div>
+        
+        
+        <div className="flex space-x-3">
           <a href="https://github.com/daniel-akinyemi" target="_blank">
             <Image
               src={Gitlogo}
               alt="Github Logo"
-              className="mx-3 w-5 h-5 text-white bg-[#9c9c9c] rounded-sm hover:bg-white/90 transition-all delay-100"
+              className=" w-6 h-6 text-white bg-[#9c9c9c] rounded-sm hover:bg-white/90 transition-all delay-100"
             />
           </a>
           <a href="https://www.linkedin.com/in/danielakinyemi/" target="_blank">
             <Image
               src={LinkedinLogo}
               alt="Linkedin Logo"
-              className="mx-3 w-5 h-5 text-[#d4d4d4] bg-[#9c9c9c] rounded-sm hover:bg-white/90 transition-all delay-100"
+              className=" w-6 h-6 text-[#d4d4d4] bg-[#9c9c9c] rounded-sm hover:bg-white/90 transition-all delay-100"
             />
           </a>
           <a href="https://drive.usercontent.google.com/uc?id=1whBfKzeI_lTrvXGlaCImUo74b3hs_Wdd&export=download">
-            <ArrowDownOnSquareStackIcon className="mx-3 w-5 h-5 text-[#9c9c9c] hovercode" />
+            <ArrowDownOnSquareStackIcon className=" w-6 h-6 text-[#9c9c9c] hovercode" />
           </a>
           {/* <img src={Gitlogo} className='mx-2 w-7 h-7 text-[#d4d4d4] rounded-sm'/>
         <img src={LinkedinLogo} className='mx-2 w-7 h-7 text-[#9C9C9C] rounded-sm'/>
