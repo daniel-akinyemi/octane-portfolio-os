@@ -1,19 +1,32 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Herobanner = () => {
   return (
-    <div className='relative'>
-        <div className="text-[#9C9C9C]  max-w-xl md:pt-32  py-40 px-4 ">
-          <h1 className="font-bold text-4xl text-white">Daniel Akinyemi</h1>
-          {/* <p className='mt-4'>Javascript & Typescript developer with 5 years of experience building webapps</p> */}
-          <p className='my-8'>
-          I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at <a href='https://esoftresponse.com/' className='underline text-gray-400 hover:text-gray-300 bg-[#1B1B1B] py-0.5 px-2 rounded-sm' target='_blank'>eSoft Response</a>.
-          </p>
-          <button className='mt-6 flex items-center px-8 py-3  bg-white text-gray-700 rounded-sm font-bold'><Link href="/about" className={`hover:text-black`}>See More About Me &rarr; </Link></button>
-          
-        </div>
+    <div className="relative overflow-hidden">
+      <div className="text-[#9C9C9C]  max-w-xl md:pt-32  pt-40 px-4 md:px-0 ">
+        <h1 className="font-bold text-6xl text-white">Software Engineer & Shopify Partner</h1>
+        
+        <p className="my-8 text-base">
+          I’m a software engineer specializing in building (and occasionally
+          designing) exceptional digital experiences. Currently, I’m focused on
+          building accessible, human-centered products at{" "}
+          <a
+            href="https://www.linkedin.com/company/c0devant"
+            className="underline text-white/80 font-semibold hover:text-white bg-[#1B1B1B] py-0.5 px-2 rounded-sm"
+            target="_blank"
+          >
+            Codevant
+          </a>
+          .
+        </p>
+        <button className="mt-6 flex items-center px-8 py-3  bg-white text-gray-700 rounded-sm font-bold">
+          <Link href="/projects" className={`hover:text-black`}>
+            See My Work Here &rarr;{" "}
+          </Link>
+        </button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Herobanner
+export default Herobanner;
