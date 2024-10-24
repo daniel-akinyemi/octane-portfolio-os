@@ -8,7 +8,7 @@ const plexMono = IBM_Plex_Mono({
 })
 
 export const metadata = {
-  title: 'Daniel Akinyemi - Portfolio',
+  title: 'Daniel Akinyemi — Engineer',
   description: 'Daniel Akinyemis portfolio website.',
 }
 
