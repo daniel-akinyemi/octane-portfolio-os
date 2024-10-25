@@ -3,7 +3,7 @@ import Link from "next/link";
 const Herobanner = () => {
   return (
     <div className="relative overflow-hidden">
-      <div className="text-[#9C9C9C]  max-w-xl md:pt-32 pb-32 md:pb-0 pt-40 px-4 md:px-0 ">
+      <div className="text-[#9C9C9C]  max-w-xl pt-20 md:pt-32 pb-12 md:pb-0  px-4 md:px-0 ">
         <h1 className="font-bold text-6xl text-white">Software Engineer & Shopify Partner</h1>
         
         <p className="my-8 text-base">
