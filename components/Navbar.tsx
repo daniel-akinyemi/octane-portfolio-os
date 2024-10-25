@@ -112,9 +112,7 @@ const Navbar = () => {
           <a href="https://drive.usercontent.google.com/uc?id=1whBfKzeI_lTrvXGlaCImUo74b3hs_Wdd&export=download">
             <ArrowDownOnSquareStackIcon className="mx-3 w-5 h-5 text-[#9c9c9c] hovercode" />
           </a>
-          {/* <img src={Gitlogo} className='mx-2 w-7 h-7 text-[#d4d4d4] rounded-sm'/>
-        <img src={LinkedinLogo} className='mx-2 w-7 h-7 text-[#9C9C9C] rounded-sm'/>
-        <img src={LinkedinLogo} className='mx-2 w-7 h-7 text-[#9C9C9C] rounded-sm'/> */}
+          
         </div>
       </div>
     </div>
